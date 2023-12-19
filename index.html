@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page 01</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias.css">
+</head>
+<body>
+    <header>
+        <div id="header-dentro">
+            <img src="imagens/superbom-logo-branca.png" alt="Logo Superbom">
+            <h1>Simulador Superbom</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="conteudo">
+            <h2>
+                <strong>QUIZ: Você tem aptidão para ser vegetariano ou vegano?</strong> <br>
+                Faça agora mesmo o teste e descubra!
+            </h2>
+
+            <p>Quem nunca se preocupou em ter hábitos mais saudáveis para ter mais qualidade de vida? Pois saiba que o vegetarianismo e veganismo envolvem o respeito ao meio ambeinte, além de uma alimentação balanceada, rica em nutrientes e fontes vegetais que ajudam a prevenir uma série de doenças.
+            </p>
+
+            <p>
+                Por conta desses benefícios é que um núimero cada vez maior de pessoas tem curiosidade sobre como poderia fazer
+            </p>
+
+            <h3>Vegetariano ou vegano, qual dos etilos de vida combina mais com você?</h3>
+            <p>Descubra fazendo agora mesmo  seu teste. Bom quiz!</p>
+
+            <p>Seja qual for a sua tendência, é sempre bom lembrar que toda mudança para uma rotina alimentar mais saudável deve ser gradual, consciente e acompanhada por um nutricionista!</p>
+    
+        </div>
+
+        <div id="quiz">
+
+            <div id="quiz-header">
+                <h2>Sim! Quero fazer o teste!</h2>
+                <p>Preencha o formulário e bom quiz!</p>
+            </div>
+
+            <div id="quiz-conteudo">
+                <form action="#" method="GET">
+                    <label for="inome"> Nome* <br>
+                        <input type="text" name="nome" id="inome" required>
+                    </label>
+
+                    <label for="iemail"> Email* <br>
+                        <input type="email" name="email" id="iemail" required>
+                    </label>
+
+                    <label for="iestado"> Estado* <br>
+                        <select name="estado" id="iestado" required>
+                            <option value=none hidden >Selecione</option>
+                            <option value="BA">Bahia</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="CE">Ceará</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                        </select>
+                    </label>
+
+                    <div id="select">
+                        <p>Você se considera?*</p>
+                        <label for="ivegetariano">
+                            <input type="radio" name="considerar" id="ivegetariano" required> Vegetariano
+                        </label>
+                        <label for="ivegano">
+                            <input type="radio" name="considerar" id="ivegano"> Vegano
+                        </label>
+                        <label for="iintolerante">
+                            <input type="radio" name="considerar" id="iintolerante"> Intolerante
+                        </label>
+                        
+                        <label for="ialimentacao-saudavel">
+                            <input type="radio" name="considerar" id="ialimentacao-saudavel"> Busca de alimentação saudável
+                        </label>
+                    </div>
+
+                    <label for="icalculo"> 8 + 2 = ? <br>
+                        <input type="number" name="calculo" id="icalculo" required>
+                    </label>
+
+                    <input type="submit" value="IR PARA O TESTE">
+
+                    <p id="texto-pequeno">
+                        Te ajudar a crescer: sim 👍 | Fazer spam: não 👎  <br>
+                        Seu email está seguro conosco.
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            <p>Rua Domingos Peixoto da Silva, 245 Capão redondo - SP - CEP 05868-680 | (11) 2842.1800 | contato@superbom.com.br</p>
+            <p>CNPJ 53.135.232/0001-13</p>
+            <p>Copyright © 2019. Todos os direitos reservados</p>
+        </address>
+
+        <img src="imagens/superbom-logo-branca.png" alt="Logo Superbom">
+    </footer>
+
+</body>
+</html>

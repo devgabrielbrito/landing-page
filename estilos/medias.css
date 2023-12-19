@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1000px) {
+
+    main div#conteudo {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    main div#quiz {
+        position: static;
+        margin: auto;
+    }
+
+    footer {
+        margin-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    main {
+        padding: 20px;
+    }
+}
